@@ -15,6 +15,7 @@ public class StringMinup {
 	System.out.println(F);
 	System.out.println(F + " " +L);
 	
+	
 	}
 
 }

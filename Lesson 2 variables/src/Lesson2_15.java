@@ -11,8 +11,11 @@ String f = " Way of living ";
 String g = "Death sintence";
 System.out.println(p + a + "\n" + b + c + "\n"+ d + e+ "\n"+ f + g);
 
-
-System.out.println("I \"love\" \n books" );
-
+String h = "\n";
+System.out.println(h + "I \"love\" \n books" );
+double BankBalance = 136.05;
+System.out.println( BankBalance);
+double num = 149396;
+System.out.println(num);
 }
 }
