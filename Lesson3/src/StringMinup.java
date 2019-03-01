@@ -24,9 +24,12 @@ public class StringMinup {
 	String s1 = "Allan Alda";
 	String s2 = "John Wayne";
 	String s3 = "Gregory Peck";
-	System.out.println( s1.substring(2,5) + " " + s1.substring(0,1));
-	System.out.println( s2.substring(2,5) + " " + s2.substring(5,7));
-	System.out.println( s3.substring(2,7) + " " + s3.substring(8,9));
+	
+	String f = s1.substring(2, 7);
+	String h = s2.substring(2, 7);
+	String i = s3.substring(2, 8);
+
+	System.out.println(f + "\n" + h +"\n" + i);
 	
 	
 	System.out.println("a\\b\\c\\\"d\"" + "\n" + "\\t is a tab, \\n is a ner line, \\\" prints a \"quote\"" + "\n" + "\"line one\"" + "\n"
