@@ -47,7 +47,11 @@ public class StringMinup {
 	System.out.println(r.substring(0,5).toLowerCase() + " " + r.substring(6,9).toUpperCase() + " " + r.substring(10,13).toLowerCase() + "\\"+ " " +
 	r.substring(14,18).toUpperCase() + "\\" + r.substring(19,24).toLowerCase() + " " + l);
 	
-	
+	String q = "Peter Piper Picked A Peck Of Pickled Peppers";
+	System.out.println(q.substring(19,25) + " " +q.substring(26,28).toLowerCase() + " " + q.substring(29,35) + "        " + q.substring(36,44).toLowerCase()
+			+ " " + q.substring(0,11) + " " + q.substring(12,18).toLowerCase());
+	String z = " Word has 4 letters";
+	System.out.println(z.);
 	
 	}
 
