@@ -34,7 +34,7 @@ public class StringMinup {
 		
 		System.out.println("a\\b\\c\\\"d\"" + "\n" + "\\t is a tab, \\n is a new line, \\\" prints a \"quote\"" + "\n" + "\"line one\"" +
 		"\n" + "\\ line      two\\"+ "\n"
-		+ "\\\\ denotes a single line comment" + "\n" + "\\denotes a multiline comment" + "\n" + "\"\\\\\"\\\"" + "\n" + "\n" + " \\\"\\\"\"\\" + "\n" + "\\\"\"\"\"\\" + "\n" ; 
+		+ "\\\\ denotes a single line comment" + "\n" + "\\*denotes a multiline comment*\\" + "\n"  +"\"\\\\\"\\\"" + "\n" + "\t" + " \\\"\\\"\"\\" + "\n" + "\\\"\"\"\"\\" + "\n"); 
 		
 		
 		String k = "Birthday";
@@ -45,12 +45,12 @@ public class StringMinup {
 		System.out.println(w.substring(0,5).toUpperCase() + "\n" + w.substring(14,15) + w.substring(3,4) + " " + w.substring(8,13).toUpperCase() );
 		String r = "Every Way The Wind Blows";
 		int l = r.substring(14,18).length();
-		System.out.println(r.substring(0,5).toLowerCase() + " " + r.substring(6,9).toUpperCase() + " " + r.substring(10,13).toLowerCase() + "\\"+ " " +
-		r.substring(14,18).toUpperCase() + "\\" + r.substring(19,24).toLowerCase() + " " + l);
+		System.out.println(r.substring(0,5).toLowerCase() + " " + r.substring(6,9).toUpperCase() + " " + r.substring(10,13).toLowerCase() + " " + "\\"+ 
+		r.substring(14,18).toUpperCase() + "\\" + " " + r.substring(19,24).toLowerCase() + " " + l);
 		
 		String s = "Peter Piper Picked A Peck Of Pickled Peppers";
-		System.out.println(s.substring(19,25) + " " +s.substring(26,28).toLowerCase() + " " + s.substring(29,35) + "        " + s.substring(36,44).toLowerCase()
-				+ " " + s.substring(0,11) + " " + s.substring(12,18).toLowerCase());
+		System.out.println(s.substring(19,25) + " " +s.substring(26,28).toLowerCase() + " " + s.substring(29,36) + "\t" + s.substring(36,44).toLowerCase()
+				+ " " + s.substring(0,11) + "\t" + s.substring(12,18).toLowerCase());
 		String z = " Word has 4 letters";
 		int ex = z.substring(0,19).length() - 10;
 		System.out.println("\"" + z.substring(10,11) + "\"" + z.substring(11,19) + " " + z.substring(6,9) + 
@@ -66,7 +66,7 @@ int y = em.substring(19,23).toLowerCase().length();
 System.out.println(em.substring(0,3).toLowerCase() + "\\" + se);
 System.out.println( em.substring(5,10).toUpperCase() + "\\" + t);
 System.out.println( em.substring(12,17).toLowerCase() + "\\" + j);
-System.out.println(em.substring(20,24).toLowerCase() + "\\" + y);
+System.out.println(em.substring(20,24).toUpperCase() + "\\" + y);
 	}
 
 }
